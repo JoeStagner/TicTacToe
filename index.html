@@ -5,11 +5,12 @@
 		<link rel="stylesheet" type="text/css" href="stylesheetJS.css">
 		<script type="text/javascript" src="javascript.js"></script>
 	</head>
-	<body>
+	<body>  
+	<div>
 		<center>
 		<h1>Tic Toe Toe</h1>
 		</center>
-        <div>
+    
 			<img id="board" src="board.png" />
 			<img id="box1" src="blank.png" onclick="toggleBox('box1')" />
 			<img id="box2" src="blank.png" onclick="toggleBox('box2')" />
@@ -22,11 +23,8 @@
 			<img id="box9" src="blank.png" onclick="toggleBox('box9')" />
 		</div>
 		<hr>
-		<h2>Controls</h2>
+		<button onclick="clearGame()">New Game</button> <button>Scoreboard</button> 
 		<ul>
-			<li><a href="" onclick="clearGame()">New Game</a></li>
-			<li>Scoreboard</li>
-		</ul>
 		<hr>	
 		<h2>Players</h2>
 		Player 1: X <br />
