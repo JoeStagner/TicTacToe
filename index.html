@@ -2,37 +2,24 @@
 <html>
 	<head>
 		<title>Tic Tac Toe</title>
-		 <link rel="stylesheet" type="text/css" href="stylesheetJS.css">
-
-<script type="text/javascript" src="ttt.js"></script>
-
+		<link rel="stylesheet" type="text/css" href="stylesheetJS.css">
+		<script type="text/javascript" src="javascript.js"></script>
 	</head>
-
 	<body>
-		<div id="div0">
 		<center>
 		<h1>Tic Toe Toe</h1>
 		</center>
-		</div>	
-		
-		<div id="div1">
-		<h2 id="h2one">Controls</h2>
+		<hr>
+		<h2>Controls</h2>
 		<ul>
 			<li><a href="" onclick="clearGame()">New Game</a></li>
 			<li>Scoreboard</li>
 		</ul>
-		</div>
-		<br clear="all"/>
-
-		<div id="div2">
-		<h2 id="h2two">Players</h2>
-		<div id="label1">
-		Player 1: X
-		</div>
-		<div id="label2">
+		<hr>	
+		<h2>Players</h2>
+		Player 1: X <br />
 		Player 2: O
-		</div>
-
+        <div>
 			<img id="board" src="board.png" />
 			<img id="box1" src="blank.png" onclick="toggleBox('box1')" />
 			<img id="box2" src="blank.png" onclick="toggleBox('box2')" />
