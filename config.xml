@@ -2,17 +2,17 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
 	xmlns:android   = "http://schemas.android.com/apk/res/android"
-        id          = "org.mitre.www.TicTacToe"
+        id          = "edu.iupui.n300.TicTacToe"
         version     = "1.0.0" >
 
-    <name>Tic-Tac-Toe</name>
+    <name>Tic Tac Toe</name>
 
     <description>
-        A Tic-Tac-Toe sample,
+        A tic tac toe game
     </description>
 
-    <author href="https://github.com/JoeStagner/TicTacToe" email="joestagner@gmail.com">
-        Joe Stagner
+    <author href="https://github.com/ProfessorKevinForbes/TicTacToe4" email="professorkevinforbes@gmail.com">
+        Kevin Forbes
     </author>
 
 	<icon src="icon.png" />
@@ -26,5 +26,16 @@
               android:targetSdkVersion="19"
               android:maxSdkVersion="19" />
 
+<feature name="Camera">
+    <param name="ios-package" value="CDVCamera" />
+</feature>
 
+<feature name="Camera">
+    <param name="android-package" value="org.apache.cordova.CameraLauncher" />
+</feature>
+
+<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
+<gap:plugin name="org.apache.cordova.media" version="0.2.13" />
+
+<gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
 </widget>

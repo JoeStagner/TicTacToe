@@ -2,32 +2,50 @@
 <html>
 	<head>
 		<title>Tic Tac Toe</title>
-		<link rel="stylesheet" type="text/css" href="stylesheetJS.css">
-		<script type="text/javascript" src="javascript.js"></script>
+		 <link rel="stylesheet" type="text/css" href="stylesheet4.css">
+<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+<script type="text/javascript" src="ttt4.js"></script>
+
 	</head>
-	<body>  
-	<div>
+
+	<body>
+		<div id="div0">
 		<center>
 		<h1>Tic Toe Toe</h1>
 		</center>
-    
-			<img id="board" src="board.png" />
-			<img id="box1" src="blank.png" onclick="toggleBox('box1')" />
-			<img id="box2" src="blank.png" onclick="toggleBox('box2')" />
-			<img id="box3" src="blank.png" onclick="toggleBox('box3')" />
-			<img id="box4" src="blank.png" onclick="toggleBox('box4')" />
-			<img id="box5" src="blank.png" onclick="toggleBox('box5')" />
-			<img id="box6" src="blank.png" onclick="toggleBox('box6')" />
-			<img id="box7" src="blank.png" onclick="toggleBox('box7')" />
-			<img id="box8" src="blank.png" onclick="toggleBox('box8')" />
-			<img id="box9" src="blank.png" onclick="toggleBox('box9')" />
-		</div>
-		<hr>
-		<button onclick="clearGame()">New Game</button> <button>Scoreboard</button> 
+		</div>	
+		
+		<div id="div1">
+		<h2 id="h2one">Controls</h2>
 		<ul>
-		<hr>	
-		<h2>Players</h2>
-		Player 1: X <br />
+			<li><a href="" onclick="clearGame()">New Game</a></li>
+			<li>Scoreboard</li>
+		</ul>
+		</div>
+		<br clear="all"/>
+
+		<div id="div2">
+		<h2 id="h2two">Players</h2>
+		<div id="label1">
+		<img class="avatar" id="player1image" src="profile7.png" onclick="changePhoto('player1image')" />
+		Player 1: X
+		</div>
+		<div id="label2">
+		<img class="avatar" id="player2image" src="profile7.png" onclick="changePhoto('player2image')" />
 		Player 2: O
+		</div>
+
+			<img id="board" src="board.png" />
+			<img class="move" id="box1" src="blank.png" onclick="toggleBox('box1')" />
+			<img class="move" id="box2" src="blank.png" onclick="toggleBox('box2')" />
+			<img class="move" id="box3" src="blank.png" onclick="toggleBox('box3')" />
+			<img class="move" id="box4" src="blank.png" onclick="toggleBox('box4')" />
+			<img class="move" id="box5" src="blank.png" onclick="toggleBox('box5')" />
+			<img class="move" id="box6" src="blank.png" onclick="toggleBox('box6')" />
+			<img class="move" id="box7" src="blank.png" onclick="toggleBox('box7')" />
+			<img class="move" id="box8" src="blank.png" onclick="toggleBox('box8')" />
+			<img class="move" id="box9" src="blank.png" onclick="toggleBox('box9')" />
+		</div>
+
 	</body>
 </html>
