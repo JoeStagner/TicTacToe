@@ -1,22 +1,49 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Tic-Tac-Toe</title>
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<title>Tic Tac Toe</title>
+		 <link rel="stylesheet" type="text/css" href="stylesheetJS.css">
+
+<script type="text/javascript" src="ttt.js"></script>
+
 	</head>
+
 	<body>
-		<div>
+		<div id="div0">
 		<center>
-		<h1>Tic-Tac-Toe</h1>
-		<button type="button" id="New Game">New Game</button> 
-		<button type="button" id="Scoreboard">Scoreboard</button> 
-		<ul style="list-style-type:none">
-		   <li>Player #1: X</li>
-		   <li>Player #2: O</li>
-		</ul> 
-		<br />
-		<img src="board.png" alt="TTT"> 
+		<h1>Tic Toe Toe</h1>
 		</center>
+		</div>	
+		
+		<div id="div1">
+		<h2 id="h2one">Controls</h2>
+		<ul>
+			<li><a href="" onclick="clearGame()">New Game</a></li>
+			<li>Scoreboard</li>
+		</ul>
 		</div>
+		<br clear="all"/>
+
+		<div id="div2">
+		<h2 id="h2two">Players</h2>
+		<div id="label1">
+		Player 1: X
+		</div>
+		<div id="label2">
+		Player 2: O
+		</div>
+
+			<img id="board" src="board.png" />
+			<img id="box1" src="blank.png" onclick="toggleBox('box1')" />
+			<img id="box2" src="blank.png" onclick="toggleBox('box2')" />
+			<img id="box3" src="blank.png" onclick="toggleBox('box3')" />
+			<img id="box4" src="blank.png" onclick="toggleBox('box4')" />
+			<img id="box5" src="blank.png" onclick="toggleBox('box5')" />
+			<img id="box6" src="blank.png" onclick="toggleBox('box6')" />
+			<img id="box7" src="blank.png" onclick="toggleBox('box7')" />
+			<img id="box8" src="blank.png" onclick="toggleBox('box8')" />
+			<img id="box9" src="blank.png" onclick="toggleBox('box9')" />
+		</div>
+
 	</body>
 </html>

@@ -1,0 +1,193 @@
+
+
+#div0 {
+	float:left;
+	display:block;
+	color:blue;
+	background-color:grey;
+	padding:0px 20px 0px 20px;
+	height:100px;
+	width:320px;
+	font-family:cursive;
+	position:relative;
+	
+}
+
+h1 {
+	color:blue;
+	background-color:grey;
+	font-family:cursive;
+	width:320px;
+		
+}
+
+
+#div1 {
+	float:left;
+	display:block;
+	color:blue;
+	background-color:grey;
+	padding:0px 20px 0px 20px;
+	height:150px;
+	width:320px;
+	font-family:cursive;
+	position:relative;
+	top:-30px;
+}
+
+
+#h2two {
+
+	position:relative;
+	left:120px;
+
+}
+
+
+#div2 {
+	height:400px;
+	display:block;
+	color:blue;
+	background-color:grey;
+	padding:0px 20px 0px 20px;
+	margin:auto;
+	font-family:cursive;
+	position:relative;
+	top:-60px;
+	width:320px;
+	left:-167px;
+
+}
+
+#label1 {
+	display:inline-block;
+	background-color:grey;
+	color:red;
+	position:relative;
+	left:50px;
+	font-family:cursive;
+}
+
+#label2 {
+	display:inline-block;
+	background-color:grey;
+	color:green;
+	position:relative;
+	left:110px;
+	font-family:cursive;
+}
+
+img {
+	display:block;
+	float:clear;
+	position:relative;
+	left:5px;
+	top:10px;
+}
+
+
+#box1 {
+
+	position:absolute;
+	left:75px;
+	top:135px;
+	display:block;
+	height:50px;
+	width:50px;
+
+}
+
+#box2 {
+
+	position:absolute;
+	left:150px;
+	top:135px;
+	display:block;
+	height:50px;
+	width:50px;
+
+}
+
+#box3 {
+
+	position:absolute;
+	left:225px;
+	top:135px;
+	display:block;
+	height:50px;
+	width:50px;
+
+}
+
+#box4 {
+
+	position:absolute;
+	left:75px;
+	top:210px;
+	display:block;
+	height:50px;
+	width:50px;
+
+}
+
+#box5 {
+
+	position:absolute;
+	left:150px;
+	top:210px;
+	display:block;
+	height:50px;
+	width:50px;
+
+}
+
+
+#box6 {
+
+	position:absolute;
+	left:225px;
+	top:210px;
+	display:block;
+	height:50px;
+	width:50px;
+
+}
+
+
+#box7 {
+
+	position:absolute;
+	left:75px;
+	top:285px;
+	display:block;
+	height:50px;
+	width:50px;
+
+}
+
+
+#box8 {
+
+	position:absolute;
+	left:150px;
+	top:285px;
+	display:block;
+	height:50px;
+	width:50px;
+
+}
+
+
+#box9 {
+
+	position:absolute;
+	left:225px;
+	top:285px;
+	display:block;
+	height:50px;
+	width:50px;
+
+}
+
+
+
