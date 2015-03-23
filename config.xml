@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+	xmlns:android   = "http://schemas.android.com/apk/res/android"
+        id          = "org.mitre.www.HelloWorld"
+        version     = "1.0.0" >
+
+    <name>Tic-Tac-Toe</name>
+
+    <description>
+        A Tic-Tac-Toe sample,
+    </description>
+
+    <author href="https://github.com/JoeStagner/TicTacToe" email="joestagner@gmail.com">
+        Joe Stagner
+    </author>
+
+	<icon src="icon.png" />
+	<gap:splash src="splash.png" />
+
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+
+
+    <uses-sdk android:minSdkVersion="19"
+              android:targetSdkVersion="19"
+              android:maxSdkVersion="19" />
+
+
+</widget>
