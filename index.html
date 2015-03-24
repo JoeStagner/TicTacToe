@@ -2,36 +2,32 @@
 <html>
 	<head>
 		<title>Tic Tac Toe</title>
-		 <link rel="stylesheet" type="text/css" href="stylesheet4.css">
-<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
-<script type="text/javascript" src="ttt4.js"></script>
-
+		 <link rel="stylesheet" type="text/css" href="styles.css">
+		<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+		<script type="text/javascript" src="javascript.js"></script>
 	</head>
-
 	<body>
 		<div id="div0">
 		<center>
-		<h1>Tic Toe Toe</h1>
-		</center>
+			<h1>Tic Toe Toe</h1>
+			</center>
 		</div>	
-		
 		<div id="div1">
-		<h2 id="h2one">Controls</h2>
-		<button onclick="clearGame()">New Game</button> 	
-		<button onclick="javascript:alert('Not Implemented')">Scoreboard</button> 		
+			<h2 id="h2one">Controls</h2>
+			<button onclick="clearGame()">New Game</button> 	
+			<button onclick="javascript:alert('Not Implemented')">Scoreboard</button> 		
 		</div>
 		<br clear="all"/>
 		<div id="div2">
-		<h2 id="h2two">Players</h2>
-		<div id="label1">
-		<img class="avatar" id="player1image" src="profile7.png" onclick="changePhoto('player1image')" />
-		Player 1: X
-		</div>
-		<div id="label2">
-		<img class="avatar" id="player2image" src="profile7.png" onclick="changePhoto('player2image')" />
-		Player 2: O
-		</div>
-
+			<h2 id="h2two">Players</h2>
+			<div id="label1">
+				<img class="avatar" id="player1image" src="user.png" onclick="changePhoto('player1image')" />
+				Player 1: X
+			</div>
+			<div id="label2">
+				<img class="avatar" id="player2image" src="user.png" onclick="changePhoto('player2image')" />
+				Player 2: O
+			</div>
 			<img id="board" src="board.png" />
 			<img class="move" id="box1" src="blank.png" onclick="toggleBox('box1')" />
 			<img class="move" id="box2" src="blank.png" onclick="toggleBox('box2')" />
@@ -43,6 +39,5 @@
 			<img class="move" id="box8" src="blank.png" onclick="toggleBox('box8')" />
 			<img class="move" id="box9" src="blank.png" onclick="toggleBox('box9')" />
 		</div>
-
 	</body>
 </html>
