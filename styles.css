@@ -1,5 +1,3 @@
-
-
 #div0 {
 	float:left;
 	display:block;
@@ -9,16 +7,13 @@
 	width:320px;
 	font-family:cursive;
 	position:relative;
-	
 }
 
 h1 {
 	color:blue;
 	font-family:cursive;
 	width:320px;
-		
 }
-
 
 #div1 {
 	float:left;
@@ -32,14 +27,11 @@ h1 {
 	top:-30px;
 }
 
-
 #h2two {
 
 	position:relative;
 	left:120px;
-
 }
-
 
 #div2 {
 	height:400px;
@@ -52,7 +44,6 @@ h1 {
 	top:-60px;
 	width:320px;
 	left:-19px;
-
 }
 
 #label1 {
@@ -86,7 +77,6 @@ img.avatar {
 	top:5px;
 }
 
-
 #box1 {
 
 	position:absolute;
@@ -95,11 +85,9 @@ img.avatar {
 	display:block;
 	height:50px;
 	width:50px;
-
 }
 
 #box2 {
-
 	position:absolute;
 	left:145px;
 	top:135px;
@@ -110,50 +98,40 @@ img.avatar {
 }
 
 #box3 {
-
 	position:absolute;
 	left:220px;
 	top:135px;
 	display:block;
 	height:50px;
 	width:50px;
-
 }
 
 #box4 {
-
 	position:absolute;
 	left:70px;
 	top:210px;
 	display:block;
 	height:50px;
 	width:50px;
-
 }
 
 #box5 {
-
 	position:absolute;
 	left:145px;
 	top:210px;
 	display:block;
 	height:50px;
 	width:50px;
-
 }
 
-
 #box6 {
-
 	position:absolute;
 	left:220px;
 	top:210px;
 	display:block;
 	height:50px;
 	width:50px;
-
 }
-
 
 #box7 {
 
@@ -163,31 +141,25 @@ img.avatar {
 	display:block;
 	height:50px;
 	width:50px;
-
 }
 
-
 #box8 {
-
 	position:absolute;
 	left:145px;
 	top:285px;
 	display:block;
 	height:50px;
 	width:50px;
-
 }
 
 
 #box9 {
-
 	position:absolute;
 	left:220px;
 	top:285px;
 	display:block;
 	height:50px;
 	width:50px;
-
 }
 
 
